@@ -60,6 +60,16 @@ const projects = [
   //   github: "https://github.com/usr390/my-contributions-to-enterprise-software"
   // },
   {
+    name: "Fast Watermarker",
+    description: "A lightweight FastAPI web app to watermark images with text or logos, supporting multiple uploads and batch ZIP downloads.",
+    slug: "fast-watermarker",
+    url: "https://fast-watermarker-production.up.railway.app/",
+    image: "fastwm.png",
+    imageAlt: "Fast Watermarker screenshot",
+    techStack: ["FastAPI", "Python", "Pillow", "Bootstrap 5", "JavaScript", "Railway"],
+    github: "https://github.com/usr390/fast-watermarker"
+  },
+  {
     name: "Rarelygroovy for Android",
     description: "Companion app for Rarelygroovy.com",
     slug: "rarelygroovy-android",
@@ -69,7 +79,7 @@ const projects = [
     techStack: ["Android Studio", "Kotlin", "Jetpack Compose", "Node.js", "Express", "MongoDB", "GitHub", "Appium + UiAutomator2"],
     comingSoon: true,
     github: "https://github.com/usr390/rarelygroovy-android"
-  },
+  }
 ];
 
 export default function PortfolioSection() {

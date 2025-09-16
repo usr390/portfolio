@@ -2,7 +2,8 @@
 import { SiHtml5, SiCss3, SiTailwindcss, SiBootstrap, SiJavascript, SiTypescript,
   SiAngular, SiReact, SiNextdotjs, SiNodedotjs, SiExpress, SiMongodb, SiMysql,
   SiGithub, SiSwift, SiSelenium, SiAndroid, SiKotlin, SiAppium, SiPostman,
-  SiSwagger, SiPercy } from "react-icons/si";
+  SiSwagger, SiPercy, 
+  SiPython} from "react-icons/si";
 import { TbBrandSwift } from "react-icons/tb";
 import { Card } from "@/components/ui/card";
 import { motion, AnimatePresence } from "framer-motion";
@@ -86,6 +87,8 @@ const skills = [
   // Backend
   { name: "NodeJS", icon: SiNodedotjs, description: "Event-driven runtime for JS on the server.", url: "https://nodejs.org" },
   { name: "Express", icon: SiExpress, description: "Minimalist HTTP server for Node.", url: "https://expressjs.com" },
+  { name: "Python", icon: SiPython, description: "General programming language.", url: "https://www.python.org/downloads/" },
+
   // Databases
   { name: "MongoDB", icon: SiMongodb, description: "Document database for fast iteration.", url: "https://www.mongodb.com" },
   { name: "SQL", icon: SiMysql, description: "Structured query language for relational DBs.", url: "https://www.mysql.com" },

@@ -64,7 +64,21 @@ const projects = [
     screenshot: "cont.png",
     github: "https://github.com/usr390/my-contributions-to-enterprise-software",
   },
-  // Add more projects as needed
+  {
+    name: "Fast Watermarker",
+    slug: "fast-watermarker",
+    url: "https://fast-watermarker-production.up.railway.app/",
+    image: "fastwm.png",
+    imageAlt: "Fast Watermarker screenshot",
+    readTime: "2 minute",
+    type: "Web App / Demo",
+    techStack: ["FastAPI", "Python", "Pillow", "Bootstrap 5", "JavaScript", "Railway"],
+    purpose: "To create a simple, demo web app that shows how I can design, build, and deploy a full-stack solution. The app allows users to upload one or more images and watermark them with text or logos, demonstrating backend processing, frontend previews, and batch file handling.",
+    stackExplanation: "FastAPI was used for the backend to handle uploads and image processing efficiently. Pillow handled watermark generation. Bootstrap 5 provided a clean, responsive UI, while vanilla JavaScript was used for previews and interactive feedback (progress, errors, success, etc). The project is deployed on Railway for quick cloud access and sharing.",
+    problems: `The challenge was making a tool that feels professional and polished while staying lightweight. Handling multiple uploads required building a batch processor that packages results into a ZIP file. Adding support for both text and image watermarks meant writing utilities to handle transparency, scaling, and opacity correctly. I also had to ensure previews, loading indicators, and error states were intuitive to the user. The result is a small but complete example of end-to-end product thinking.`,
+    screenshot: "fastwm.png",
+    github: "https://github.com/usr390/fast-watermarker",
+  },
 ];
 
 function ProjectPurpose({ slug, purpose }: { slug: string; purpose: string }) {
