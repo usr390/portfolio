@@ -61,7 +61,7 @@ const projects = [
   // },
   {
     name: "Fast Watermarker",
-    description: "A lightweight FastAPI web app to watermark images with text or logos, supporting multiple uploads and batch ZIP downloads.",
+    description: "A lightweight FastAPI web app to watermark images and videos with text or logos, supporting multiple uploads and batch ZIP downloads.",
     slug: "fast-watermarker",
     url: "https://fast-watermarker-production.up.railway.app/",
     image: "fastwm.png",
